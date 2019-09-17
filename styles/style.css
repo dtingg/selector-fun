@@ -1,10 +1,17 @@
 /*Without changing anything in the html, add the following styles using advanced selectors*/
 
-
 /* Give the header element a background color */
-
+header { 
+  background-color: aqua;
+}
 
 /* Center everything in the header and footer */
+header, footer {
+  text-align: center;
+}
+
+
+
 
 
 /* All text to Helvetica */

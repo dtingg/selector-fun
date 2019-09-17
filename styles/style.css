@@ -53,33 +53,31 @@ a[href="#comments"]:hover {
 }
 
 /* All Post's Author's Links Bold and Blue, with no Underline */
-  article h3 a[href] {
+article h3 a[href] {
   color: blue;
   text-decoration: none;
 }
 
-/* article:nth-child(3)[first-child] {
-  color: blue;
-} */
-
-
-  article p a[href]:first-of-type {
+article p a[href]:first-of-type {
   color: blue;
   font-weight: bold;
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
 /* Article Paragraph Text should have line height of 200% */
-
+article p {
+  line-height: 200%;
+}
 
 /* The First Letter of each Article be 2em */
+article section p::first-letter {
+  font-size: 2em
+
+}
+
+
+
+
 
 
 /* The First Image in every Article should have Rounded Corners*/

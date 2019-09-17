@@ -80,16 +80,21 @@ article img:first-of-type {
   border-radius: 30px;
 }
 
-
-
-
 /* The First Top Cat Section (check the bottom of the HTML file) should have a Golden Background */
-
+aside section:nth-child(2) {
+  background-color: goldenrod;
+}
 
 /* The 2nd Top Cat Section Should have a Silver/gray Background */
+aside section:nth-child(3) {
+  background-color: silver;
+}
 
 /* The 3rd-Most Top Cat Should have a Bronze/brown Background
    Note: the HTML for this one is a little odd! This is intentional! */
+main > section {
+  background-color: brown;
+}
 
 /* Every other Article's Post-Content Background Color to a Light Grey */
 

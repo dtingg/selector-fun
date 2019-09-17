@@ -52,11 +52,15 @@ article a[href="#comments"]:hover {
   text-decoration: underline;
 }
 
-
-
-
-
 /* All Post's Author's Links Bold and Blue, with no Underline */
+  article h3 a[href]{
+  color: blue;
+  text-decoration: none;
+}
+
+
+
+
 
 
 /* Article Paragraph Text should have line height of 200% */

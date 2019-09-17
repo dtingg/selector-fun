@@ -16,18 +16,23 @@ header, footer {
 }
 
 /* All links default color is gray*/
-a {
+a:link {
   color: gray;
+}
+
+/* All links on hover color red*/
+a:hover {
+  color: red;  
+}
+
+/* All Links visted color black*/
+a:visited {
+  color: black;
 }
 
 
 
 
-
-/* All links on hover color red*/
-
-
-/* All Links visted color black*/
 
 
 /* Footer disclaimer text to be .5 em*/

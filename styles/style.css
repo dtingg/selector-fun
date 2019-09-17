@@ -53,10 +53,23 @@ a[href="#comments"]:hover {
 }
 
 /* All Post's Author's Links Bold and Blue, with no Underline */
-  article h3 a[href]{
+  article h3 a[href] {
   color: blue;
   text-decoration: none;
 }
+
+/* article:nth-child(3)[first-child] {
+  color: blue;
+} */
+
+
+  article p a[href]:first-of-type {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
 
 
 

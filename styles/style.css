@@ -70,17 +70,17 @@ article p {
 }
 
 /* The First Letter of each Article be 2em */
-article section p::first-letter {
+article section p:first-of-type::first-letter {
   font-size: 2em
 
 }
 
-
-
-
-
-
 /* The First Image in every Article should have Rounded Corners*/
+article img:first-of-type {
+  border-radius: 30px;
+}
+
+
 
 
 /* The First Top Cat Section (check the bottom of the HTML file) should have a Golden Background */

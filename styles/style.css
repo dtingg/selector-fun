@@ -30,18 +30,22 @@ a:visited {
   color: black;
 }
 
-
-
-
-
-
 /* Footer disclaimer text to be .5 em*/
-
+#disclaimer {
+  font-size: .5em
+}
 
 /* Remove bullet points from header navigation links */
-
+header nav li{
+  list-style-type: none;
+}
 
 /* All Post's Comment Links Italicized, Orange and Remove the Underline */
+[href="#comments"] {
+  font-style: italic
+}
+
+
 
 
 /* All Post's Comment Links Show Underline on Hover */

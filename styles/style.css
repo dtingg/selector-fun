@@ -10,14 +10,18 @@ header, footer {
   text-align: center;
 }
 
-
-
-
-
 /* All text to Helvetica */
-
+* {
+  font-family: Helvetica;
+}
 
 /* All links default color is gray*/
+a {
+  color: gray;
+}
+
+
+
 
 
 /* All links on hover color red*/

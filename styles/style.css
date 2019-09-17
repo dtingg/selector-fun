@@ -41,14 +41,14 @@ header nav li {
 }
 
 /* All Post's Comment Links Italicized, Orange and Remove the Underline */
-article a[href="#comments"] {
+a[href="#comments"] {
   font-style: italic;
   color: orange;
   text-decoration: none;
 }
 
 /* All Post's Comment Links Show Underline on Hover */
-article a[href="#comments"]:hover {
+a[href="#comments"]:hover {
   text-decoration: underline;
 }
 

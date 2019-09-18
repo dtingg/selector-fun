@@ -38,6 +38,12 @@ a:visited {
 /* Remove bullet points from header navigation links */
 header nav li {
   list-style-type: none;
+  margin-right: 45px;
+}
+
+footer nav li {
+  list-style-type: none;
+  margin-right: 45px;
 }
 
 /* All Post's Comment Links Italicized, Orange and Remove the Underline */
@@ -82,7 +88,7 @@ article img:first-of-type {
 
 /* The First Top Cat Section (check the bottom of the HTML file) should have a Golden Background */
 aside section:nth-child(2) {
-  background-color: goldenrod;
+  background-color: gold;
 }
 
 /* The 2nd Top Cat Section Should have a Silver/gray Background */
@@ -93,7 +99,7 @@ aside section:nth-child(3) {
 /* The 3rd-Most Top Cat Should have a Bronze/brown Background
    Note: the HTML for this one is a little odd! This is intentional! */
 main > section {
-  background-color: brown;
+  background-color: #cd7f32;
 }
 
 /* Every other Article's Post-Content Background Color to a Light Grey */
@@ -113,9 +119,16 @@ main > section img {
 /*** BONUS ***/
 
 /* Add a cat emoji before a Cat's Name (in the heading content)*/
-
+article h3 a[href]::before {
+  content: "\01F63B";
+} 
 
 /* Top-most Top Cat has a trophy emoji before name */
-
+aside section:nth-child(2) h3::before {
+  content: "\01F3C6";
+}
 
 /* Use Google Fonts to change h1 & h2 fonts to Roboto Slab */
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+}

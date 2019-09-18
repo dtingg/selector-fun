@@ -97,10 +97,18 @@ main > section {
 }
 
 /* Every other Article's Post-Content Background Color to a Light Grey */
-
+main > article:nth-child(odd) {
+  background-color: lightgray;
+}
 
 /* All Top Kitten's Profile Photos Rounded */
+aside img {
+  border-radius: 30px;
+}
 
+main > section img {
+  border-radius: 30px;
+}
 
 /*** BONUS ***/
 
